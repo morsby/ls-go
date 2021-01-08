@@ -303,7 +303,7 @@ var (
 		},
 		"folderHeader": map[string]string{
 			"arrow":      FgRGB(3, 2, 0),
-			"main":       BgGray(2) + FgRGB(3, 2, 0),
+			"main":       FgRGB(3, 2, 0), //BgGray(2) + FgRGB(3, 2, 0),
 			"slash":      FgGray(5),
 			"lastFolder": Bold + FgRGB(5, 5, 0),
 			"error":      BgRGB(5, 0, 0) + FgRGB(5, 5, 0),
