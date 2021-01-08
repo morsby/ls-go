@@ -294,11 +294,11 @@ var (
 	// ConfigColor holds mappings for other various colors
 	ConfigColor = map[string]map[string]string{
 		"dir": map[string]string{
-			"name": Bold + BgRGB(0, 0, 2) + FgGray(23),
+			"name": Bold + FgGray(23), // Bold + BgRGB(0, 0, 2) + FgGray(23),
 			"ext":  FgRGB(2, 2, 5),
 		},
 		".dir": map[string]string{
-			"name": Bold + BgRGB(0, 0, 1) + FgGray(23),
+			"name": Bold + FgGray(23), //Bold + BgRGB(0, 0, 1) + FgGray(23),
 			"ext":  FgRGB(2, 2, 5),
 		},
 		"folderHeader": map[string]string{

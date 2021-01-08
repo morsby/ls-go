@@ -389,7 +389,7 @@ var folders = map[string]string{
 	".vscode":               "\ue70c",
 	".vim":                  "\ue62b",
 	"config":                "\ue5fc",
-	"folder":                "\uf07c",
+	"folder":                "\uf115",
 	"hidden":                "\uf023",
 	"node_modules":          "\ue5fa",
 }
